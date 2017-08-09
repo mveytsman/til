@@ -6,9 +6,7 @@ In order to have working formating for `html.eex` files
 2) Put the following in `~/.jsbeautifyrc`
 ```json
 {
-	# ...
 	"html": {
-    # ...
 		"void_elements": ["%", "%=", "area", "base", "br", "col", "embed", "hr", "img", "input", "keygen", "link", "menuitem",	"meta", "param", "source", "track", "wbr", "!doctype", "?xml", "?php", "basefont", "isindex"]
 	}
 }
